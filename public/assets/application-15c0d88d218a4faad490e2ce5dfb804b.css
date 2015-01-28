@@ -1,0 +1,33 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 6, C:/ics624/ics-624-crowdsourcing-demo/app/assets/stylesheets/static_pages.css.scss */
+#board {
+  display: inline-block;
+}
+
+/* line 11, C:/ics624/ics-624-crowdsourcing-demo/app/assets/stylesheets/static_pages.css.scss */
+#row2, #row5 {
+  border-bottom: 1px solid black;
+}
+
+/* line 16, C:/ics624/ics-624-crowdsourcing-demo/app/assets/stylesheets/static_pages.css.scss */
+.col2, .col5 {
+  border-right: 1px solid black;
+}
+
+/* line 21, C:/ics624/ics-624-crowdsourcing-demo/app/assets/stylesheets/static_pages.css.scss */
+input {
+  text-align: center;
+}

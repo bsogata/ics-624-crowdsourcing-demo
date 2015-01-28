@@ -1,0 +1,23 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#board
+{
+  display: inline-block;  
+}
+
+#row2, #row5
+{
+  border-bottom: 1px solid black;
+}
+
+.col2, .col5
+{
+  border-right: 1px solid black;
+}
+
+input
+{
+  text-align: center;
+}

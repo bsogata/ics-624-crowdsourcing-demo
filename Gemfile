@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
@@ -7,6 +9,7 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3.1'
 gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -43,3 +46,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Postgres
+gem 'pg'
+gem 'rails_12factor'
+
+# For automatic annotations of the models
+gem 'annotate', group: :development
